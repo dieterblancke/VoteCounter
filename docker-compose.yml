@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  mysql:
+    image: mysql:8.1.0
+    container_name: votecounter-mysql
+    environment:
+      - MYSQL_DATABASE=votecounter
+      - MYSQL_USER=votecounter
+      - MYSQL_PASSWORD=votecounter
+      - MYSQL_ROOT_PASSWORD=votecounter
+    ports:
+      - "4403:3306"
+    volumes:
+      - ./docker-compose/data:/var/lib/mysql

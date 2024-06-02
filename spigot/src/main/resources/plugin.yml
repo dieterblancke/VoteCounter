@@ -1,0 +1,6 @@
+main: dev.endoy.lexurcraft.votecounter.spigot.VoteCounter
+name: VoteCounter
+version: ${project.version}
+author: Endoy
+depend:
+  - Votifier
