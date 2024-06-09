@@ -65,7 +65,7 @@
     </dependencies>
 
     <build>
-        <finalName>VoteCounter v${project.version}</finalName>
+        <finalName>VoteCounter v${project.version}-spigot</finalName>
 
         <resources>
             <resource>
